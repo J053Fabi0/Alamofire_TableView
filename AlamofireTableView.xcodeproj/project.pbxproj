@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40A9DF5F755200D9C987ADB9 /* Pods_AlamofireTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBD9DE7D5600443699E0C35 /* Pods_AlamofireTableView.framework */; };
+		F03CD4171E97DAD300D654BD /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03CD4161E97DAD300D654BD /* CustomTableViewCell.swift */; };
 		F0BFB5E81E97DA43005B6563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFB5E71E97DA43005B6563 /* AppDelegate.swift */; };
 		F0BFB5EA1E97DA43005B6563 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFB5E91E97DA43005B6563 /* ViewController.swift */; };
 		F0BFB5ED1E97DA43005B6563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BFB5EB1E97DA43005B6563 /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42FFBB09C3B89D148688D177 /* Pods-AlamofireTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireTableView/Pods-AlamofireTableView.release.xcconfig"; sourceTree = "<group>"; };
+		7DBD9DE7D5600443699E0C35 /* Pods_AlamofireTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03CD4161E97DAD300D654BD /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		F0BFB5E41E97DA43005B6563 /* AlamofireTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BFB5E71E97DA43005B6563 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0BFB5E91E97DA43005B6563 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		F0BFB5EE1E97DA43005B6563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0BFB5F11E97DA43005B6563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0BFB5F31E97DA43005B6563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E889B86172D76676E2AEB6 /* Pods-AlamofireTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireTableView/Pods-AlamofireTableView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A9DF5F755200D9C987ADB9 /* Pods_AlamofireTableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C0924DB445E0BDE7D894581 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9E889B86172D76676E2AEB6 /* Pods-AlamofireTableView.debug.xcconfig */,
+				42FFBB09C3B89D148688D177 /* Pods-AlamofireTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F0BFB5DB1E97DA43005B6563 = {
 			isa = PBXGroup;
 			children = (
 				F0BFB5E61E97DA43005B6563 /* AlamofireTableView */,
 				F0BFB5E51E97DA43005B6563 /* Products */,
+				9C0924DB445E0BDE7D894581 /* Pods */,
+				F0FC8CFF1ABC242AFEADDE9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +74,21 @@
 			children = (
 				F0BFB5E71E97DA43005B6563 /* AppDelegate.swift */,
 				F0BFB5E91E97DA43005B6563 /* ViewController.swift */,
+				F03CD4161E97DAD300D654BD /* CustomTableViewCell.swift */,
 				F0BFB5EB1E97DA43005B6563 /* Main.storyboard */,
 				F0BFB5EE1E97DA43005B6563 /* Assets.xcassets */,
 				F0BFB5F01E97DA43005B6563 /* LaunchScreen.storyboard */,
 				F0BFB5F31E97DA43005B6563 /* Info.plist */,
 			);
 			path = AlamofireTableView;
+			sourceTree = "<group>";
+		};
+		F0FC8CFF1ABC242AFEADDE9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DBD9DE7D5600443699E0C35 /* Pods_AlamofireTableView.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0BFB5F61E97DA43005B6563 /* Build configuration list for PBXNativeTarget "AlamofireTableView" */;
 			buildPhases = (
+				0C887153291B3CCA83889E05 /* [CP] Check Pods Manifest.lock */,
 				F0BFB5E01E97DA43005B6563 /* Sources */,
 				F0BFB5E11E97DA43005B6563 /* Frameworks */,
 				F0BFB5E21E97DA43005B6563 /* Resources */,
+				AFDBD6593A6F8CBB0333ADEB /* [CP] Embed Pods Frameworks */,
+				684E35FA87413A884E96988A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,11 +162,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C887153291B3CCA83889E05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		684E35FA87413A884E96988A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlamofireTableView/Pods-AlamofireTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFDBD6593A6F8CBB0333ADEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlamofireTableView/Pods-AlamofireTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F0BFB5E01E97DA43005B6563 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03CD4171E97DAD300D654BD /* CustomTableViewCell.swift in Sources */,
 				F0BFB5EA1E97DA43005B6563 /* ViewController.swift in Sources */,
 				F0BFB5E81E97DA43005B6563 /* AppDelegate.swift in Sources */,
 			);
@@ -259,6 +338,7 @@
 		};
 		F0BFB5F71E97DA43005B6563 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E889B86172D76676E2AEB6 /* Pods-AlamofireTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4JWQ6476UG;
@@ -272,6 +352,7 @@
 		};
 		F0BFB5F81E97DA43005B6563 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42FFBB09C3B89D148688D177 /* Pods-AlamofireTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4JWQ6476UG;
@@ -302,6 +383,7 @@
 				F0BFB5F81E97DA43005B6563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
