@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40A9DF5F755200D9C987ADB9 /* Pods_AlamofireTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBD9DE7D5600443699E0C35 /* Pods_AlamofireTableView.framework */; };
-		F03CD4171E97DAD300D654BD /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03CD4161E97DAD300D654BD /* CustomTableViewCell.swift */; };
+		F03CD4191E97E72700D654BD /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03CD4181E97E72700D654BD /* CustomTableViewCell.swift */; };
 		F0BFB5E81E97DA43005B6563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFB5E71E97DA43005B6563 /* AppDelegate.swift */; };
 		F0BFB5EA1E97DA43005B6563 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFB5E91E97DA43005B6563 /* ViewController.swift */; };
 		F0BFB5ED1E97DA43005B6563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BFB5EB1E97DA43005B6563 /* Main.storyboard */; };
@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		42FFBB09C3B89D148688D177 /* Pods-AlamofireTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireTableView/Pods-AlamofireTableView.release.xcconfig"; sourceTree = "<group>"; };
 		7DBD9DE7D5600443699E0C35 /* Pods_AlamofireTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F03CD4161E97DAD300D654BD /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F03CD4181E97E72700D654BD /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		F0BFB5E41E97DA43005B6563 /* AlamofireTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BFB5E71E97DA43005B6563 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0BFB5E91E97DA43005B6563 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 			children = (
 				F0BFB5E71E97DA43005B6563 /* AppDelegate.swift */,
 				F0BFB5E91E97DA43005B6563 /* ViewController.swift */,
-				F03CD4161E97DAD300D654BD /* CustomTableViewCell.swift */,
+				F03CD4181E97E72700D654BD /* CustomTableViewCell.swift */,
 				F0BFB5EB1E97DA43005B6563 /* Main.storyboard */,
 				F0BFB5EE1E97DA43005B6563 /* Assets.xcassets */,
 				F0BFB5F01E97DA43005B6563 /* LaunchScreen.storyboard */,
@@ -215,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F03CD4171E97DAD300D654BD /* CustomTableViewCell.swift in Sources */,
+				F03CD4191E97E72700D654BD /* CustomTableViewCell.swift in Sources */,
 				F0BFB5EA1E97DA43005B6563 /* ViewController.swift in Sources */,
 				F0BFB5E81E97DA43005B6563 /* AppDelegate.swift in Sources */,
 			);
